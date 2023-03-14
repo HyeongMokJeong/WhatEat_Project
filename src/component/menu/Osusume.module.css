@@ -1,0 +1,103 @@
+
+
+.modal {
+    position: absolute;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
+.title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title > header {
+    font-size: 80px;
+    color: black;
+    font-family: 'Jua', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.radiodiv {
+    margin-top: 50px;
+    background-color: white;
+    margin-left: 30px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+}
+
+.radiodiv2 {
+    width: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+    float: left;
+    text-align: center;
+}
+
+.radio {
+    margin-top: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.close {
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.button {
+    font-family: 'Jua', sans-serif;
+    background-color: white;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .title > header {
+        font-size: 60px;
+        color: black;
+        font-family: 'Jua', sans-serif;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .radiodiv {
+        margin-top: 50px;
+        background-color: white;
+        margin-left: 30px;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    .radio {
+        margin-top: 35px;
+        margin-left: 10%;
+    }
+}

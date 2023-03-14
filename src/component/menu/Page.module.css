@@ -1,0 +1,218 @@
+.container > h3 {
+    background-color: black;
+    color: white;
+    font-family: 'Jua', sans-serif;
+    font-size: 60px;
+    top: 0px;
+    font-weight: normal;
+}
+
+.map {
+    width: 600px;
+    height: 300px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.imgcon {
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    border: 1px hidden gray;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    transform: translateZ(0);
+    image-rendering: -webkit-optimize-contrast;
+    backface-visibility: hidden;
+}
+
+.imgbtn {
+    font-family: 'Jua', sans-serif;
+    background-color: white;
+    margin: 5px;
+    size: 20px;
+    cursor: pointer;
+}
+
+.storeinfotxt {
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+}
+
+.mainCon {
+    padding: 15px;
+    width: max-content;
+    margin: auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 50px;
+}
+
+.hide {
+    color: white;
+}
+
+.infoCon {
+    border: 1px solid black;
+    padding: 5px;
+    width: max-content;
+    margin: auto;
+}
+
+.idpass {
+    height: 15px;
+    width: max-content;
+    height: max-content;
+    margin-top: auto;
+}
+
+.textdiv {
+    float: left;
+    margin-left: 10px;
+}
+
+.textarea {
+    resize: none;
+    white-space:normal;
+}
+
+.uploadBtn {
+    background-color: black;
+    color: white;
+    float: right;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.cmtarea {
+    width: max-content;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.printCmt {
+    width: 600px;
+    margin: auto;
+    font-size: 15px;
+    border-top: 1px solid gray;
+}
+
+.printCmtid {
+    width: fit-content;
+    float: left;
+    text-align: center;
+}
+
+.printCmtin {
+    text-align: left;
+    width: fit-content;
+    margin-left: 200px;
+    white-space: pre-line;
+}
+
+.deleteCmt {
+    margin: 3px;
+    font-family: 'Jua', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cmttitle {
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Jua', sans-serif;
+}
+
+.navermap {
+    width: "600px";
+    height: "300px";
+    left: "50%";
+    margin-left: "-300px";
+    margin-top: "15px"
+}
+
+.menutitle {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Jua', sans-serif;
+}
+
+.menulist {
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: 'Jua', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    .container > h3 {
+        background-color: black;
+        color: white;
+        font-family: 'Jua', sans-serif;
+        font-size: 60px;
+        top: 0px;
+        white-space: pre-wrap;
+    }
+
+    .imgcon {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .printCmt {
+        width: 100%;
+        font-size: 15px;
+        border-top: 1px solid gray;
+    }
+
+    .printCmtid {
+        width: fit-content;
+        margin-left: 15px;
+    }
+
+    .deleteCmt {
+        margin: 3px;
+        font-family: 'Jua', sans-serif;
+        font-size: 15px;
+    }
+    
+    .cmtarea {
+        width: 100%;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .textarea {
+        resize: none;
+        white-space:normal;
+    }
+
+    .printCmtin {
+        text-align: left;
+        width: fit-content;
+        margin-left: 110px;
+        white-space: pre-line;
+    }
+
+    .idpass {
+        height: 15px;
+        width: max-content;
+        margin-bottom: 5px;
+    }
+}

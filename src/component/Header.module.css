@@ -1,0 +1,11 @@
+.head {
+    background-size: auto;
+    height: min-content;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px){
+    .img {
+        width: 100%;
+    }
+}

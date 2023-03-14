@@ -3,7 +3,7 @@
 대학 근처 식당가 정보를 크롤링하고,
 해당 데이터를 제공하는 프로젝트입니다.
 
-베이스가 전무한 상태에서 직접 부딪혀가며 제작함으로써 전반적인 웹 구조, 웹 개발의 기초지식을 체득할 수 있었습니다.
+직접 부딪혀가며 제작해보며 전반적인 웹 구조, 웹 개발의 기초지식을 체득할 수 있었습니다.
 
 ## 언어
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>

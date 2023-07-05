@@ -18,5 +18,12 @@
 ## 배포 환경
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=AmazonEC2&logoColor=white"/>
 
+
+## 화면
+<img src="https://github.com/HyeongMokJeong/project_WhatEat/assets/94634916/49dd886e-b23c-4914-b8e8-bced20576e2b">  
+<img src="https://github.com/HyeongMokJeong/project_WhatEat/assets/94634916/07a3c2ef-a481-41e3-91e4-b4db7e4c7080"> 
+<img src="https://github.com/HyeongMokJeong/project_WhatEat/assets/94634916/2e787504-112e-4ea1-afc0-18d37c7c8d74"> 
+
+
 ## 참고 강의
 필요에 따라 여러 유튜브 영상 및 구글링을 통해 제작하였습니다.
